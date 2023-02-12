@@ -1,3 +1,10 @@
+/*
+Author: Saraya Weerasinghe
+Course: CSCI-135
+Instructor: Gennadiy Maryash
+Assignment: LAB 2 B
+*** Program will print out integers in order including the first number and excluding the last ***
+*/
 // funcs.cpp
 #include <iostream>
 #include "funcs.h"
