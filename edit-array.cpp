@@ -10,7 +10,6 @@ The user inputs an index and and a value and that value will replace anything in
 
 #include <iostream>
 
-using namespace std;
 
 int main() {
   int myData[10];
@@ -19,16 +18,16 @@ int main() {
   }
   do {
     for (int i = 0; i < 10; i++) {
-      cout << myData[i] << " ";
+      std::cout << myData[i] << " ";
     }
-    cout << endl;
+    std::cout << std::endl;
     int index;
     int new_value;
-    cin >> index >> new_value;
+    std::cin >> index >> new_value;
     if (index < 10 && index >= 0) {
       myData[index] = new_value;
     } else {
-      cout << "Invalid index" << endl;
+     std:: cout << "Invalid index" << std::endl;
       break;
     }
   } while (true);
